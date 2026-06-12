@@ -1,0 +1,39 @@
+```css
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#050816;
+    color:white;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.hero p{
+    font-size:1.3rem;
+    color:#94a3b8;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons a{
+    text-decoration:none;
+    color:white;
+    border:1px solid #3b82f6;
+    padding:12px 24px;
+    margin:0 10px;
+    border-radius:10px;
+}
+```
