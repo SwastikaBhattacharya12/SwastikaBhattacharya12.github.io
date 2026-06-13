@@ -50,71 +50,7 @@ body::after{
     z-index:-3;
 }
 
-/* SHOOTING STARS */
 
-.shooting-star{
-    position:fixed;
-    width:180px;
-    height:2px;
-    background:linear-gradient(
-        90deg,
-        rgba(255,255,255,1),
-        rgba(255,255,255,0)
-    );
-
-    transform:rotate(-35deg);
-    z-index:-1;
-}
-
-.star1{
-    top:8%;
-    left:-250px;
-    animation:shoot1 8s linear infinite;
-}
-
-.star2{
-    top:22%;
-    left:-250px;
-    animation:shoot2 12s linear infinite;
-}
-
-.star3{
-    top:35%;
-    left:-250px;
-    animation:shoot3 15s linear infinite;
-}
-
-@keyframes shoot1{
-    from{
-        transform:translateX(0) translateY(0) rotate(-35deg);
-    }
-
-    to{
-        transform:translateX(2200px) translateY(700px) rotate(-35deg);
-    }
-}
-
-@keyframes shoot2{
-    from{
-        transform:translateX(0) translateY(0) rotate(-35deg);
-    }
-
-    to{
-        transform:translateX(2200px) translateY(800px) rotate(-35deg);
-    }
-}
-
-@keyframes shoot3{
-    from{
-        transform:translateX(0) translateY(0) rotate(-35deg);
-    }
-
-    to{
-        transform:translateX(2200px) translateY(900px) rotate(-35deg);
-    }
-}
-
-/* HERO */
 
 .hero{
     min-height:100vh;
